@@ -262,5 +262,60 @@ coregistration 영역은 neuroimaging 기술에서의 급속한 발전으로 점
 
 # Intersubject Coregistration
 
+intersubject image registration은 통제 집단의 평균 이미지를 생성
+
+관심 환자의 모집단 내 또는 그것에 걸친 병리학적 영상 이상을 비교가능
+
+SPECT , PET 영상 - 가장 일반적인 임상응용
+
+* Richardson and Koepp et al
+
+두개의 부분 뇌전증 환자 그룹에서, flumazenil PET와의 central benzodiazepine binding 이상을 조사.
+
+statistical parametric mapping을 사용, 각 환자의 정상 및 비정상 benzodiazepine binding 분포를 객관적으로 측정
+
+coregisted MRI는 분할된 MRI의 convolving한 회질을 사용하여 부분 volume 효과에 대한 중요한 보정을 하게한다.
 
 
+* Bartenstein et al
+
+치매에서 SPECT 영역 뇌 혈류 장애 평가는 intersubject coregistration에 의해 허용되는 해부학적 표준화의 이점을 보여준다.
+
+-> 알츠하이머 병 환자의 CBF 변화의 패턴과 심각도에 대한 관찰자-독립적 평가를 더 정확히 한다.
+
+functional imaging의 진단 가치에 큰 어려움이 있는 조기 또는 경증 치매에서의 유의한 이상 검출에서 민감도를 증가.
+
+* Houston et al
+
+주 성분 분석으로 추가 수준의 분석을 사용.
+
+이 절차에서 변형 normal equivalent image를 생성하는데, contral image 내에서 정상 편차를 설명하는데 도움을 준다.
+
+주성분 분석이 있든지 없든지 간에, image coregistration 및 평균 통제 데이터셋을 사용한 해부학적 표준화는 임상과 진단 영상에서의 일상적 사용과 관련하여, 의심할 여지없이 확산되는 functional brain image의 객관적 해석에 있어 확실한 진전이다.
+
+# Conclusion
+
+의료 영상의 향상된 해석 및 분석을 위한 수많은 응용 프로그램에도 불구하고, image coregistration의 일성적인 임상 사용은 여전히 제한적이다.
+
+질병 진행 평가 serial image의 해석을 개선하는 것에 분명한 이점이 존재한다.
+
+이는 종양 및 다발성 경화증과 같은 질병에 대한 확립된, 잠재적 가입 또는 치료의 효과를 객관적으로 모니터링 해야하는 필요성을 포함한다.
+
+* 다양한 ytpe의 image data(with intermodality coregistration)은 개별 양식 분석으로부터 구할 수 없는 정보를 얻을 수 있다.
+
+* 뇌종양 재발의 치료와 수술을 위해 뇌전증을 국소화 하는데 있어 multimodality coregistration 사용의 이점이 있다.
+
+* 수술 전 뇌전증 국소화는 가장 적은 침습적 절차(안전 & 효과적인 수술전략)의 결정은 전기생리학적 뇌전증 국소화를 뇌 매핑의 functional imaging에 결합하는 coregistration을 사용하는 것을 포함한다.
+
+* intersubject coregistration은 일상적 임상 사용과 가장 멀지만, functional anatomic imaging의 정확한 정량적 해석을 위한 진정한 발전을 제공한다.
+
+image coregistration의 적용이 느린 이유 : 지원의 어려움이 증가 하기 때문.
+
+image coregistration을 이용하지 않는 이유 : 여러 다른 이미지 데이터의 자동화된 컴퓨터 조작을 효율적으로 수행하기 위한 logistic difficulty의 결과이다.
+
+
+대부분 병원에서 고속 네트워크 구현 -> 디지털 이미지 아카이브의 빠른 접근에서 장애물이 제거됨
+
+충분히 정확한, 검증된 coregistration은 대부분의 응용분야에 널리 사용
+
+임상 의사및 영상 부서가 긴밀히 협력하고, 기존 이미지 처리 도구를 수집, 조정, 채택해야한다.
